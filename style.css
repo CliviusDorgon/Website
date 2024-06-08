@@ -10,7 +10,7 @@ body{
     font-family: "Tiny5","sans-serif";
     color: white;
 }
-#buttons{
+#button_hoofdpagina{
     background-color: white;
     font-family: "Tiny5","sans-serif";
     color: black;
@@ -18,4 +18,28 @@ body{
     height: 5vh;
     width: 10vh;
     font-size: 1em;
+}
+#button_foto{
+    background-color: white;
+    font-family: "Tiny5","sans-serif";
+    color: black;
+    border-radius: 10px;
+    height: 5vh;
+    width: 30vh;
+    font-size: 1em;
+}
+#afbeelding{
+    width: 700px;
+    height: auto;
+}
+#flappy{
+    width: 200px;
+    height: auto;
+}
+.afbeeldingen{
+    display: table-row;
+    display: flex;
+}
+.knop_afbeelding{
+    display: ruby;
 }

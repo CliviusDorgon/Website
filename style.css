@@ -27,9 +27,10 @@ body{
     height: 5vh;
     width: 30vh;
     font-size: 1em;
+    position: ruby;
 }
 #afbeelding{
-    width: 700px;
+    width: 600px;
     height: auto;
 }
 #flappy{
@@ -41,5 +42,6 @@ body{
     display: flex;
 }
 .knop_afbeelding{
-    display: ruby;
+    display: flex;
+    flex-direction: column-reverse;
 }

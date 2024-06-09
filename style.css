@@ -12,10 +12,10 @@ body{
     color: white;
 }
 #controls_text{
-    background-color: white;
+    background-color: black;
     font-size: 2em;
     font-family: "Tiny5","sans-serif";
-    color: black;
+    color: white;
 }
 #button_hoofdpagina{
     background-color: white;
@@ -26,14 +26,27 @@ body{
     width: 30vh;
     font-size: 2em;
 }
-.button_tomain{
+#button_tomain_fromfoto{
     background-color: white;
     font-family: "Tiny5","sans-serif";
     color: black;
     border-radius: 10px;
-    height: 10%;
-    width: 10%;
+    height: 3em;
+    width: 10em;
     font-size: 1em;
+    margin-top: 4em;
+    margin-left: 30em;
+}
+#button_tomain_fromcontrols{
+    background-color: white;
+    font-family: "Tiny5","sans-serif";
+    color: black;
+    border-radius: 10px;
+    height: 3em;
+    width: 10em;
+    font-size: 1em;
+    margin-top: 4em;
+    margin-left: 0em;
 }
 #afbeelding{
     width: 600px;
@@ -46,6 +59,7 @@ body{
 .afbeeldingen{
     display: table-row;
     display: flex;
+
 }
 .knop_afbeelding{
     display: flex;

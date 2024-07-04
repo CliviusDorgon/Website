@@ -13,31 +13,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img id="flappy" src="bird.png" alt="dit is flappy">
-    <h1 id="Text_uitleg">Dit is de plaats waar je moet zijn voor mijn games te spelen!</h1>
-    <div>
-        <a href="foto's.html">
-            <button id="button_hoofdpagina">foto's</button>
-        </a>
-        <a href="controls.html">
-            <button id="button_hoofdpagina">controls</button>
-        </a>
-        <a href="https://itch.io/embed-upload/10784494?color=333333">
-            <button id="button_hoofdpagina">flappy bird</button>
-        </a>
+    <div class="dropAndRestFlappy">
+        <img id="flappy" src="bird.png" alt="dit is flappy">
+        <h1 id="Text_uitleg">Dit is Flappy Brid!</h1>
+        <div>
+            <a href="foto's.html">
+                <button id="button_hoofdpagina">foto's</button>
+            </a>
+            <a href="controls.html">
+                <button id="button_hoofdpagina">controls</button>
+            </a>
+        </div>
+
+        <div class="dropdown_menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#">Games</a>
+                        <ul class="dropdown">
+                            <li> <a href="flappyBird.html">Flappy bird</a></li>
+                            <li> <a href="donkeyKong.html">Donkey kong</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li>
-                <a href="#">Games</a>
-                <ul class="dropdown">
-                    <li> <a href="flappyBird.html">Flappy bird</a></li>
-                    <li> <a href="donkeyKong.html">Donkey kong</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+    <iframe frameborder="0" src="https://itch.io/embed-upload/10784494?color=333333" allowfullscreen="" width="960" height="670"><a href="https://cliviusdorgon.itch.io/flappy-bird">Play Flappy Bird on itch.io</a></iframe>
 </body>
 </html>

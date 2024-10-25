@@ -1,3 +1,13 @@
 .flappyBirdGame{
     margin-top: 40px;
 }
+.pijl{
+    font-size: 200px;
+}
+.pijl:hover{
+    font-size: 0;
+}
+.pijl:hover:after{
+    content: attr(data-hover);
+    font-size: 100px;
+}

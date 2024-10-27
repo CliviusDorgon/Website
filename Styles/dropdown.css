@@ -34,3 +34,23 @@ ul li a:hover{
 ul li:hover ul.dropdown{
     display: block;
 }
+ul li ul.dropdown li ul.dropdown-right {
+    position: absolute;
+    top: 0;
+    left: 100%; /* Positioneert het submenu rechts van de "Flappy bird" optie */
+    background-color: blue;
+    display: none;
+    padding: 0;
+}
+
+/* Zorgt ervoor dat het submenu alleen zichtbaar wordt bij hover op "Flappy bird" */
+ul li ul.dropdown li:hover > ul.dropdown-right {
+    display: block;
+}
+
+ul li ul.dropdown li ul.dropdown-right li a {
+    font-size: 18px;
+    height: 55px;
+    padding-top: 30.5px;
+    padding-bottom: 0;
+}

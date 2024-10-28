@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>uitleg</title>
+
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/dropdown.css">
+    <link rel="stylesheet" href="Styles/flappyBird.css">
 </head>
 <body>
-    <p>froepi</p>
+    <div class="dropdown_menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">Games</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="flappyBird.html">Flappy bird</a>
+                                <ul class="dropdown-right">
+                                    <li><a href="uitlegFlappy.html">uitleg</a></li>
+                                </ul>
+                        </li>
+                        <li><a href="donkeyKong.html">Donkey kong</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <p class="uitlegFlappyGame">
+        In deze game moet je zoveel mogelijk punten behalen. Dit doe je door, door de openingen van de buizen te vliegen.
+        Vliegen is als volgt: SPATIE = springen (SPATIE heel de tijd ingedrukt houden heeft geen zin).
+    </p>
 </body>
 </html>

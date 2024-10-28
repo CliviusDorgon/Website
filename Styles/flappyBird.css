@@ -3,6 +3,14 @@
 }
 .pijl{
     font-size: 100px;
+    animation: bewegen 5s infinite;
+    display: inline-block;
+}
+
+@keyframes bewegen {
+    0% { transform: translateX(0px); }
+    50% { transform: translateX(300px); }
+    100% { transform: translateX(0px); }
 }
 .pijl:hover{
     font-size: 0;
@@ -16,4 +24,10 @@
     transform: translateX(-50%);
     margin-top: 20px;
     white-space: nowrap;
+}
+.uitlegFlappyGame{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    font-size: 200%
 }

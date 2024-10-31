@@ -1,12 +1,10 @@
 .flappyBirdGame{
     margin-top: 90px;
-    margin-right: 900px;
 }
 .pijl{
     font-size: 100px;
     animation: bewegen 1.5s infinite;
-    display: inline-block;
-    margin-right: 900px;;
+    margin-left: 130px;
 }
 
 @keyframes bewegen {
@@ -23,18 +21,16 @@
     font-size: 50px;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-75%);
     margin-top: 20px;
     white-space: nowrap;
 }
 .uitlegFlappyGame{
     position: relative;
-    border: red 10px solid;
-    top: 10px;
-    right: 10px;
+    bottom: 350px;
+    left: 450px;
     font-size: 200%;
-    padding-top: 0;
-    width: 600px;
+    width: 500px;
 }
 .background-video {
     position: fixed;
@@ -45,4 +41,9 @@
     object-fit: cover;
     z-index: -1;
     opacity: 0.1;
+}
+.foto_pijl{
+    position: relative;
+    margin-top: 30px;
+    right: 550px;
 }

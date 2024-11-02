@@ -26,9 +26,9 @@
     white-space: nowrap;
 }
 .uitlegFlappyGame{
-    position: relative;
-    bottom: 350px;
-    left: 450px;
+    position: absolute;
+    left: 58%;
+    bottom: 50%;
     font-size: 200%;
     width: 500px;
 }
@@ -40,10 +40,10 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    opacity: 0.1;
+    opacity: 0.2;
 }
 .foto_pijl{
     position: relative;
     margin-top: 30px;
-    right: 550px;
+    right: 35%;
 }

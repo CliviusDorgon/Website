@@ -1,6 +1,7 @@
 .uitleg_mezelf{
-    font-size: 300%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
+    position: relative;
+    font-size: 200%;
+    margin-top: 3%;
+    right: 35%;
+    width: 300px;
 }

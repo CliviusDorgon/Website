@@ -27,8 +27,8 @@
 }
 .uitlegFlappyGame{
     position: absolute;
-    left: 58%;
-    bottom: 50%;
+    right: 5%;
+    top: 20%;
     font-size: 200%;
     width: 500px;
 }

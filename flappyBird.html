@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Styles/dropdown.css">
     <link rel="stylesheet" href="Styles/general.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flappy bird</title>
     <link rel="stylesheet" href="Styles/general.css">
     <link rel="stylesheet" href="Styles/flappyBird.css">
-
-<!--<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
--->
+    <link rel="stylesheet" href="Styles/dropdown.css">
 </head>
 <body>
-    <div id="menu-container"></div> <!-- Hier komt het menu -->
+    <div class="dropdown_menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">Games</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="flappyBird.html">Flappy bird</a>
+                        </li>
+                        <li>
+                            <a href="donkeyKong.html">Donkey kong</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
-    <script>
-        fetch('dropdownmenu.html') // Haal menu.html op
-            .then(response => response.text()) // Zet de response om in tekst
-            .then(data => document.getElementById('menu-container').innerHTML = data) // Voeg het menu in de pagina
-            .catch(error => console.error('Error loading menu:', error)); // Toon een foutmelding als het misgaat
-    </script>
-    
     <div class="foto_pijl">
         <a class="flappyBirdGame" href="https://itch.io/embed-upload/10784494?color=333333" target="_blank">
             <img id="flappy" src="foto's/flappyBirdIcon.png" alt="dit is flappy">

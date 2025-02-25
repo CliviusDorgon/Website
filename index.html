@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>start</title>
     <link rel="stylesheet" href="Styles/general.css">
-    
     <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="Styles/dropdown.css">
 </head>
 <body>
-    <div id="menu-container"></div> <!-- Hier komt het menu -->
-
-    <script>
-        fetch('dropdownmenu.html') // Haal menu.html op
-            .then(response => response.text()) // Zet de response om in tekst
-            .then(data => document.getElementById('menu-container').innerHTML = data) // Voeg het menu in de pagina
-            .catch(error => console.error('Error loading menu:', error)); // Toon een foutmelding als het misgaat
-    </script>
+    <div class="dropdown_menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">Games</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="flappyBird.html">Flappy bird</a>
+                        </li>
+                        <li>
+                            <a href="donkeyKong.html">Donkey kong</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a class="login" href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <p class="uitleg_mezelf">
         Hallo ik ben Arn en ik heb een paar games gemaakt. 

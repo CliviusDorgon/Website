@@ -1,7 +1,5 @@
 .dropdown_menu{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
 }
 
 ul{
@@ -55,9 +53,4 @@ ul li ul.dropdown li ul.dropdown-right li a {
     height: 55px;
     padding-top: 30.5px;
     padding-bottom: 0;
-}
-
-.login{
-    display: flex;
-    right: 100px;
 }

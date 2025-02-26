@@ -33,7 +33,7 @@
         </nav>
     </div>
     
-    <div class="container" id="signup">
+    <div class="container" id="signup" style="display: none;">
         <h1 class="form-title">Register</h1>
         <form method="post" action="">
             <div class="input-group">
@@ -56,7 +56,7 @@
                 <input type="password" id="password" placeholder="Password" required>
                 <label for="password">Password</label>
             </div>
-            <input type="submit" class="btn" value="Sign Up" name="Sign Up">
+            <input type="submit" class="btn" value="Sign Up" name="Sign Up" style="color: white;">
         </form>
         <p class="or">
             ----------or----------
@@ -71,7 +71,7 @@
         </div>
     </div>
 
-    <div class="container" id="signIn">
+    <div class="container" id="signIn" style="display: none;"> <!--kan het terug laten verschijnen door de style weg te doen (ik bedoel dan enkel dit kleine style blokje en niet het hele script!!)-->
         <h1 class="form-title">Sign In</h1>
         <form method="post" action="">
             <div class="input-group">
@@ -87,7 +87,7 @@
             <p class="recover">
                 <a href="#">Recover Password</a>
             </p>
-            <input type="submit" class="btn" value="Sign In" name="Sign In">
+            <input type="submit" class="btn" value="Sign In" name="Sign In" style="color: white;">
         </form>
         <p class="or">
             ----------or----------
@@ -101,5 +101,6 @@
             <button id="SignUpButton">Sign Up</button>
         </div>
     </div>
+    <script src="login.js"></script>
 </body>
 </html>

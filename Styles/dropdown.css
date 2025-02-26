@@ -1,5 +1,7 @@
 .dropdown_menu{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul{
@@ -37,13 +39,13 @@ ul li:hover ul.dropdown{
 ul li ul.dropdown li ul.dropdown-right {
     position: absolute;
     top: 0;
-    left: 100%; /* Positioneert het submenu rechts van de "Flappy bird" optie */
+    left: 100%; 
     background-color: blue;
     display: none;
     padding: 0;
 }
 
-/* Zorgt ervoor dat het submenu alleen zichtbaar wordt bij hover op "Flappy bird" */
+
 ul li ul.dropdown li:hover > ul.dropdown-right {
     display: block;
 }
@@ -53,4 +55,9 @@ ul li ul.dropdown li ul.dropdown-right li a {
     height: 55px;
     padding-top: 30.5px;
     padding-bottom: 0;
+}
+
+.login{
+    display: flex;
+    right: 100px;
 }

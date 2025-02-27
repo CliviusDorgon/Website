@@ -1,10 +1,18 @@
 .dropdown_menu{
-    width: 100%;
+    width: 70%;
+    box-sizing: border-box;
 }
 
 ul{
     list-style: none;
     background-color: blue;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 1, 0.4);
 }
 ul li{
     display: inline-block;
@@ -17,6 +25,7 @@ ul li a{
     text-decoration: none;
     text-align: center;
     font-size: 20px;
+    border-radius: 15px;
 }
 ul li ul.dropdown li{
     display: block;

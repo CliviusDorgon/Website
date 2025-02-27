@@ -33,7 +33,7 @@
         </nav>
     </div>
     
-    <div class="container" id="signup" style="display: ;">
+    <div class="container" id="signup" style="display: none;">
         <h1 class="form-title">Register</h1>
         <form method="post" action="">
             <div class="input-group">
@@ -71,7 +71,7 @@
         </div>
     </div>
 
-    <div class="container" id="signIn" style="display: ;"> <!--kan het terug laten verschijnen door de style weg te doen (ik bedoel dan enkel dit kleine style blokje en niet het hele script!!)-->
+    <div class="container" id="signIn"> <!--kan het terug laten verschijnen door de style weg te doen (ik bedoel dan enkel dit kleine style blokje en niet het hele script!!)-->
         <h1 class="form-title">Sign In</h1>
         <form method="post" action="">
             <div class="input-group">

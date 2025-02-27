@@ -1,6 +1,6 @@
 <?php
 $zip = new ZipArchive();
-$filename = "./Website1.zip"; // Vervang dit door de naam van je zip-bestand
+$filename = "./website.zip"; // Vervang dit door de naam van je zip-bestand
 
 if ($zip->open($filename) === TRUE) {
     $zip->extractTo('./'); // Geef hier het pad op waar je de bestanden wilt uitpakken

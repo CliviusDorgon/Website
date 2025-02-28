@@ -1,19 +1,24 @@
 .dropdown_menu{
-    width: 70%;
-    box-sizing: border-box;
+    width: 100%;
+    opacity: 0;
+    transition: 5s;
+}
+
+.dropdown_menu:hover{
+    opacity: 1;
 }
 
 ul{
     list-style: none;
     background-color: blue;
-    border: 5px solid black;
-    border-radius: 20px;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
-    box-shadow: 0 20px 35px rgba(0, 0, 1, 0.4);
 }
+
+
+
 ul li{
     display: inline-block;
     position: relative;
@@ -21,7 +26,7 @@ ul li{
 ul li a{
     display: block;
     padding: 20px 25px;
-    color: white;
+    color: black;
     text-decoration: none;
     text-align: center;
     font-size: 20px;

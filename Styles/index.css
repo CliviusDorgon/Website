@@ -1,9 +1,21 @@
-.uitleg_mezelf{
-    position: relative;
-    font-size: 200%;
-    margin-top: 20px;
+.FilamentSoort{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-top: 100px;
+}
+.filamentFoto{
+    height: 100px;
+    width: auto;
 }
 
+.tekst{
+    position: absolute;
+    padding-bottom: 250px;
+    right: auto;
+    font-size: 45px;
+}
 @media only screen and (max-width: 600px) {
     .uitleg_mezelf{
         width: 200px;
@@ -44,27 +56,20 @@
 }
 
 /*slider maken*/
-body{
-    width: 100%;
-    display: flex;
-}
 .container{
     padding: 10px;
-    z-index: -1;
-    padding-right: 0;
-    margin-right: 0;
+    margin: auto;
 }
 
 .slider-wrapper{
     position: relative;
-    max-width: 97vw; /* Beperkt de breedte tot de viewport */
-    overflow: hidden; /* Voorkomt dat de afbeeldingen buiten de container vallen */
+    max-width: 70rem; 
+    margin: auto;
 }
 
 .slider{
     display: flex;
     aspect-ratio: 20/8;
-    width: 100%;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -72,18 +77,15 @@ body{
     border-radius: 0.5rem;
 
     -ms-overflow-style: none;  /* Voor Internet Explorer en Edge de balk vanonder verwijderen*/
-    scrollbar-width: none;     /* Voor Firefox */
+    scrollbar-width: none; /* Voor Firefox */
 }
 
 .slider::-webkit-scrollbar {
-    display: none;              /*voor al de rest*/
+    display: none;
 }
 
 .slider img{
-    flex: 0 0 100%;
-    max-width: 100%;
-    width: 100%;
-    height: auto;
+    flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
 }

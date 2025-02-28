@@ -1,0 +1,22 @@
+.filamentInfoKaart {
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8; /* Lichte achtergrond */
+    padding: 20px;
+    border-radius: 10px; /* Afgeronde hoeken */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Zachte schaduw */
+    text-decoration: none; /* Geen blauwe linkstijl */
+    color: #333; /* Tekstkleur */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.filamentInfoKaart:hover {
+    transform: translateY(-5px); /* Beetje omhoog bij hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.info-card-content {
+    text-align: center;
+}

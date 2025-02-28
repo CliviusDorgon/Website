@@ -12,12 +12,18 @@ ul{
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     transition: 1s;
 }
 
 ul:hover{
-    background-color: blue;
+    background-color: gray;
+}
+
+.logoSite{
+    height: 60px;
+    width: auto;
+    margin-right: 65%;
 }
 
 ul li{
@@ -44,13 +50,13 @@ ul li ul.dropdown li{
 
 ul li ul.dropdown{
     width: 100%;
-    background-color: blue;
+    background-color: gray;
     position: absolute;
     z-index: 999;
     display: none;
 }
 ul li a:hover{
-    background: #00008b;
+    background: rgb(95, 95, 95);
 }
 ul li:hover ul.dropdown{
     display: block;
@@ -59,7 +65,7 @@ ul li ul.dropdown li ul.dropdown-right {
     position: absolute;
     top: 0;
     left: 100%; 
-    background-color: blue;
+    background-color: gray;
     display: none;
     padding: 0;
 }
@@ -74,7 +80,4 @@ ul li ul.dropdown li ul.dropdown-right li a {
     height: 55px;
     padding-top: 30.5px;
     padding-bottom: 0;
-}
-.login{
-    justify-content: right;
 }

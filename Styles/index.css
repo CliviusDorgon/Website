@@ -46,21 +46,25 @@
 /*slider maken*/
 body{
     width: 100%;
+    display: flex;
 }
 .container{
     padding: 10px;
     z-index: -1;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 .slider-wrapper{
     position: relative;
-    width: 30%;
-    margin: 0 auto;
+    max-width: 97vw; /* Beperkt de breedte tot de viewport */
+    overflow: hidden; /* Voorkomt dat de afbeeldingen buiten de container vallen */
 }
 
 .slider{
     display: flex;
     aspect-ratio: 20/8;
+    width: 100%;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -76,7 +80,10 @@ body{
 }
 
 .slider img{
-    flex: 1 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
     scroll-snap-align: start;
     object-fit: cover;
 }
@@ -94,7 +101,7 @@ body{
 .slider-nav a{
     width: 0.5rem;
     height: 0.5rem;
-    border-radius: 50%;
+    border-radius: 50%; 
     background-color: #fff;
     opacity: 0.75;
     transition: opacity ease 250ms;

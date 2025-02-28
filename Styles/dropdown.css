@@ -1,23 +1,24 @@
-.dropdown_menu{
-    width: 100%;
-    opacity: 0;
-    transition: 5s;
+body{
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-.dropdown_menu:hover{
-    opacity: 1;
+.dropdown_menu{
+    width: 100%;
 }
 
 ul{
     list-style: none;
-    background-color: blue;
+    background-color: transparent;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    transition: 1s;
 }
 
-
+ul:hover{
+    background-color: blue;
+}
 
 ul li{
     display: inline-block;
@@ -32,9 +33,15 @@ ul li a{
     font-size: 20px;
     border-radius: 15px;
 }
+
+ul li a:hover{
+    color: white;
+}
+
 ul li ul.dropdown li{
     display: block;
 }
+
 ul li ul.dropdown{
     width: 100%;
     background-color: blue;
@@ -67,4 +74,7 @@ ul li ul.dropdown li ul.dropdown-right li a {
     height: 55px;
     padding-top: 30.5px;
     padding-bottom: 0;
+}
+.login{
+    justify-content: right;
 }

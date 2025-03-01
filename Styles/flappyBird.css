@@ -1,36 +1,43 @@
-.flappyBirdGame{
-    margin-top: 90px;
+body{
+    position: relative;
+    display: flex;
 }
+
+#flappy{
+    height: 50%;
+    width: auto;
+    left: 30px;
+    bottom: 290px;
+}
+
+.foto_pijl{
+    position: relative;
+    margin-top: 30px;
+    right: 35%;
+}
+
 .pijl{
     font-size: 100px;
     animation: bewegen 1.5s infinite;
-    margin-left: 130px;
+    position: relative;
 }
-
 @keyframes bewegen {
     0% { transform: translateY(0px); }
-    50% { transform: translateY(30px); }
+    50% { transform: translateY(30px); }    
     100% { transform: translateY(0px); }
 }
 .pijl:hover{
     font-size: 0;
-    position: relative;
+    text-align: center;
 }
 .pijl:hover:after{
     content: attr(data-hover);
     font-size: 50px;
     position: absolute;
     left: 50%;
-    transform: translateX(-75%);
+    transform: translateX(-50%);
     margin-top: 20px;
     white-space: nowrap;
-}
-.uitlegFlappyGame{
-    position: absolute;
-    right: 5%;
-    top: 20%;
-    font-size: 200%;
-    width: 500px;
 }
 .background-video {
     position: fixed;
@@ -42,8 +49,67 @@
     z-index: -1;
     opacity: 0.2;
 }
-.foto_pijl{
-    position: relative;
-    margin-top: 30px;
-    right: 35%;
+.uitlegFlappyGame{
+    position: absolute;
+    width: 300px;
+    bottom: -300px;
+    right: 80px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.uitlegFlappyGame{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    font-size: 200%;
+    width: 500px;
+}*/
+/*@media screen and (max-width: 600px){
+    .foto_pijl{
+        position: relative;
+        margin-top: 30px;
+        right: 0;
+    }
+    .pijl{
+        font-size: 1px;
+    }
+}
+@media only screen and (min-width: 601px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+/*.pijl{
+    font-size: 100px;
+    animation: bewegen 1.5s infinite;
+    margin-left: 130px;
+}*/

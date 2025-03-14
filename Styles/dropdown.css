@@ -41,7 +41,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: white;
+    color: gray;
 }
 
 ul li ul.dropdown li{
@@ -54,7 +54,7 @@ ul li ul.dropdown{
     position: absolute;
     z-index: 999;
     display: none;
-}
+}   
 ul li a:hover{
     background: rgb(95, 95, 95);
 }

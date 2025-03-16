@@ -1,5 +1,12 @@
-.filamentInfoKaart {
+body{
+    min-height: 120vh;
+}
+
+.filamentInfoKaartPLA,
+.filamentInfoKaartPET-G,
+.filamentInfoKaartTPU {
     display: flex;
+    position: relative;
     margin-right: 100px;
     align-items: center;
     justify-content: center;
@@ -10,13 +17,34 @@
     text-decoration: none; /* Geen blauwe linkstijl */
     color: #333; /* Tekstkleur */
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    height: 200px;
+    width: 500px;
 }
 
-.filamentInfoKaart:hover {
+.filamentInfoKaartPLA:hover,
+.filamentInfoKaartPET-G:hover,
+.filamentInfoKaartTPU:hover {
     transform: translateY(-5px); /* Beetje omhoog bij hover */
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-.info-card-content {
+.info-card-content{
     text-align: center;
+}
+.filamentInfoKaartPLA{
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+
+.filamentInfoKaartPET-G{
+    position: absolute;
+    right: 30px;
+    top: 450px;
+}
+
+.filamentInfoKaartTPU{
+    position: absolute;
+    left: 30px;
+    bottom: -100px;
 }

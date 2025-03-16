@@ -12,9 +12,8 @@
 
 .tekst{
     position: absolute;
-    padding-bottom: 250px;
-    right: auto;
-    font-size: 45px;
+    bottom: 350px;
+    font-size: 40px;
 }
 
 /*slider maken*/

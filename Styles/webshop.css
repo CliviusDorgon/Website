@@ -1,3 +1,7 @@
+body{
+    min-height: 120vh;
+}
+
 .filamentInfoKaartPLA,
 .filamentInfoKaartPET-G,
 .filamentInfoKaartTPU {
@@ -33,29 +37,6 @@
     top: 100px;
 }
 
-.JodaFoto{
-    width: 250px;
-    position: absolute;
-    top: 30px;
-    right: 10px;
-}
-
-.PLA_Line{
-    position: absolute;
-    top: 400px;
-    width: 95%;
-    height: 3px;
-    background-color: black;
-    border: none;
-}
-.PET-G_Line{
-    position: absolute;
-    top: 725px;
-    width: 95%;
-    height: 3px;
-    background-color: black;
-    border: none;
-}
 .filamentInfoKaartPET-G{
     position: absolute;
     right: 30px;
@@ -66,10 +47,4 @@
     position: absolute;
     left: 30px;
     bottom: -100px;
-}
-.TPU_Voorbeeld{
-    width: 250px;
-    position: absolute;
-    bottom: -100px;
-    right: 10px;
 }
